@@ -1,6 +1,12 @@
 <?php
-    $page_title = "index";
-    include_once "layout/layout_head.php";
+include_once "../../config/core.php";
+include_once "../../config/database.php";
+
+
+$page_title = "Index";
+$require_login = true;
+include_once "../../login_checker.php";
+include_once "layout/layout_head.php";
 ?>
 
 <div class="card page-card">

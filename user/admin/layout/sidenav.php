@@ -23,7 +23,7 @@
       Dashboard
     </a>
 
-    <a href="/pigmanagement_overview"
+    <a href="<?= $base_url ?>user/admin/livestock/management/overview.php"
        class="nav-link text-light <%= current_page === 'pigmanagement_overview' ? 'active' : '' %>">
       <i class="fa-brands fa-github me-2"></i>
       Pig Management
