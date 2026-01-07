@@ -1,0 +1,27 @@
+<?php
+$page_title = "livestock";
+include_once "../layout/layout_head.php";
+?>
+
+<div class="app-root">
+  <!-- CONTENT -->
+  <main class="pigs-container">
+    <h2 class="page-title">MY PIGS</h2>
+
+    <div class="pig-card">
+      <div class="pig-image">
+        <img src="https://via.placeholder.com/150" alt="Pig">
+        <p class="tag">[TAG NUMBER]</p>
+      </div>
+
+      <div class="pig-info">
+        <p><strong>AGE:</strong> 6 MONTHS</p>
+        <p><strong>BREED:</strong> NATIVE</p>
+        <p><strong>STATUS:</strong> ALIVE</p>
+        <p><strong>LOCATION:</strong> BUENAVISTA</p>
+
+        <button class="details-btn">VIEW DETAILS</button>
+      </div>
+    </div>
+  </main>
+</div>

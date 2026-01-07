@@ -1,0 +1,26 @@
+<?php
+    $page_title = "help";
+    include_once "../layout/layout_head.php";
+?>
+
+<div class="app-root">
+ <!-- CONTENT -->
+  <main class="help-container">
+    <h2 class="page-title">HELP</h2>
+
+    <div class="help-card">
+      <span>VIDEO TUTORIALS</span>
+      <i class="fa-solid fa-chevron-right"></i>
+    </div>
+
+    <div class="help-card">
+      <span>FREQUENT ASKED QUESTIONS</span>
+      <i class="fa-solid fa-chevron-right"></i>
+    </div>
+
+    <div class="help-card">
+      <span>SUPPORT</span>
+      <i class="fa-solid fa-chevron-right"></i>
+    </div>
+  </main>
+</div>
